@@ -7,6 +7,12 @@
 	list-style-type: none;
 	padding: 0;
 }
+.wrapper h2{
+    font-size: 40px;
+    color: #0b0c0c;
+}
+
+
 
 .sb-slider li {
 	margin: 0;

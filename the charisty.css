@@ -22,7 +22,7 @@ a p{
     background: #131212;
 }
 a {
-    color: #262626;
+    color: #f7e9e9;
 }
 
 a:visited {
@@ -164,7 +164,7 @@ a:hover, a:active {
     font-size: 14px;
     font-weight: 600;
     line-height: 1;
-    color: #262626;
+    color: #f5ebeb;
     text-decoration: none;
     transition: color .35s;
 }
@@ -219,7 +219,7 @@ a:hover, a:active {
 .hero-slider h3{
     color:#fff;
     text-align: center;
-    margin-left: 35%;
+    margin-left: 390px;
 }
 
 .hero-content-wrap {
@@ -247,30 +247,26 @@ a:hover, a:active {
 
 .hero-content-overlay h1 {
     margin: 0;
-    font-size: 90px;
+    font-size: 50px;
     font-weight: 600;
-    padding-left: 50%;
-
+  
+    margin-left: 400px;
     text-align: center;
 }
 
-.hero-content-overlay h4 {
-    margin: 0;
-    font-size: 28px;
-    font-weight: 400;
-    padding-left: 50%;
-    
-    
-   
-}
 
 
 
-.hero-content-overlay .entry-footer a.btn {
+
+
+
+.hero-content-overlay  a.btn {
     color: #fff;
     background:#27ae60;
     text-align: center;
-    margin-left: 450px;
+    margin-left: 440px;
+  
+  
 }
 
 .hero-slider .pagination-wrap {
@@ -282,20 +278,7 @@ a:hover, a:active {
 }
 
 
-.hero-slider .swiper-pagination-bullet {
-    width: 24px;
-    height: 20px;
-    margin-right: 6px;
-    border-radius: 0;
-    font-size: 12px;
-    color: #fff;
-    background: transparent;
-    opacity: 1;
-}
 
-.hero-slider .swiper-pagination-bullet-active {
-    color: #27ae60;
-}
 
 .hero-slider .swiper-button-next,
 .hero-slider .swiper-button-prev {
@@ -492,8 +475,11 @@ ul.tabs-nav .tab-nav.active {
 # Icon Box
 ----------------------------------*/
 .home-page-icon-boxes {
-    padding: 96px 0;
-    background: url(img/frames-clipart-grass-8.jpg) no-repeat center;
+    padding: 50px 0;
+    background-color: #DBEDF3;
+    margin: 0;
+    
+    
    
 }
 
@@ -501,15 +487,19 @@ ul.tabs-nav .tab-nav.active {
 
 
 .icon-box {
-    padding: 40px;
+    
     border-radius: 24px;
     text-align: center;
     transition: all .35s;
 }
-
+.home-page-icon-boxes h2 {
+    color :#111011;
+    font-size: 40px;
+   
+}
 
 .icon-box .entry-title {
-    margin-top: 28px;
+   
     font-size: 24px;
     font-weight: 600;
     color: #0c0c0c;
@@ -553,6 +543,7 @@ ul.tabs-nav .tab-nav.active {
 --------------------------------*/
 .home-page-events {
     padding: 96px 0;
+    
 }
 
 .cause-wrap {
@@ -572,6 +563,7 @@ ul.tabs-nav .tab-nav.active {
 .cause-wrap figure img {
     display: block;
     width: 100%;
+    height: 250px;
 }
 
 .featured-cause .cause-content-wrap {
@@ -631,11 +623,12 @@ ul.tabs-nav .tab-nav.active {
 --------------------------------*/
 .our-causes {
     position: relative;
-    padding: 96px 0;
     background-color: #bdc3c7;
+    height: 700px;
     background-size: cover;
     padding-bottom: 250px;
     z-index: 99;
+    margin: 0;
 }
 
 .our-causes::after {
@@ -754,6 +747,9 @@ ul.tabs-nav .tab-nav.active {
 
 .our-causes h2{
     color :#131212;
+    font-size: 40px;
+    margin-left: 450px;
+   
 
 }
 
@@ -800,7 +796,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .causes-page .highlighted-cause .entry-content {
-    font-size: 14px;
+    
     line-height: 2;
     color: #0b0c0c;
 }
@@ -879,19 +875,7 @@ ul.tabs-nav .tab-nav.active {
     width: 100%;
     margin-top: 60px;
 }
-.section-heading .entry-title::before{
-    content: '';
-    position: absolute;
-    margin-bottom: 900px;
-    margin-left: 120px;
-    padding-left: 300px;
-    bottom: 0;
-    left: 0;
-    width: 64px;
-    height: 4px;
-    border-radius: 2px;
-    background: black;
-}
+
 
 /*
 # Short Content
@@ -926,7 +910,6 @@ ul.tabs-nav .tab-nav.active {
     font-size: 18px;
     font-weight: 600;
 }
-
 
 
 /*
@@ -973,49 +956,62 @@ News
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color:#2c3e50;
-    height: 400px;
-    margin: 0 auto;
+    padding-top: 200px;
+    background-color:#E0E7E9;
+    height: 500px;
+    margin: 0 ;
+    padding: 0;
     overflow: hidden;
     list-style: none;
     padding: 0;
     z-index: 1;
+   
     
 
 
 }
-.text-active h2{
-    padding: 0;
-    margin: 0;
+#mmm  h4{
+    margin: 20px 20px 30px 20px;
+    
     color: rgb(10, 10, 10);
-   font-size: 30px;
-   margin-top: 10%;
+    font-family: "Volkhov", serif;
+   font-size: 40px;
+   text-align: center;
+  
+   text-align: center;
+  
+ 
+  
+   
+  
   
   
   
   
    
 }
+
+
 .mmm .box{
     position: relative;
     width: 200px;
     height: 200px;
     background: #ff0;
-    margin: 70px;
+    margin: 120px;
     box-sizing: border-box;
     border-radius: 50%;
-  
+    
+   
   
     
     
 
 }
-.mmm .box .imagebox{
+.mmm .box .imagebox {
     position: relative;
-    overflow: hidden;\
-    margin-top: 40%;
-    
+    overflow: hidden;
 }
+
 .mmm .box .imagebox img {
     max-width: 100%;
     width: 200px;
@@ -1094,7 +1090,8 @@ code for iraq
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #34495e;
+    background-color: #FFFFFF;
+    margin: 0;
     
    
     
@@ -1103,15 +1100,14 @@ code for iraq
 
 .design img {
    
-    border: 5px solid #34495e;
+   
     position: center;
     margin: 0 auto;
     display: block;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
-    box-shadow: 0 2px 35px 10px rgba(243, 243, 243, 0.719), 0 6px 20px 0 #34495e;
-    margin-top: 4%;
+    
 
     
 }
@@ -1120,14 +1116,17 @@ code for iraq
     font-size: 25px;
     direction: rtl;
     margin: 50px;
-    color: white;
+    color: rgb(17, 16, 16);
+    
    
     text-align: right!important;
 }
 #cont h4{
     direction: rtl;
+    font-size: 30px;
     margin: 50px;
-    color: white;
+    font-family: "Volkhov", serif;
+    color: rgb(15, 14, 14);
     text-align: center;
 }
 
@@ -1142,7 +1141,8 @@ contact
 -----------------------------------*/
 
 #contact {
-    background-color: rgb(27, 42, 49);
+    background-color: #212529;
+    margin: 0;
   }
   /*--------------------------------------------------------------
 # Contact Page
@@ -1160,7 +1160,13 @@ contact
     font-size: 24px;
     font-weight: 500;
 }
-
+.col-md-12  h3 {
+    font-size: 40px;
+    color:white;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Volkhov", serif;
+}
 .contact-page-wrap .entry-content p {
     margin-top: 20px;
     font-size: 20px;
@@ -1197,7 +1203,7 @@ contact
 
 .contact-form {
     padding: 35px 20px 55px;
-    margin-top: 96px;
+    margin-bottom: 40px;
     background: #edf3f5;
 }
 
