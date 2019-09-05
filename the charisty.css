@@ -1240,6 +1240,7 @@ contact
     cursor: pointer;
 }
 
+
 .contact-page .contact-gmap {
     margin-top: 92px;
 }
@@ -1336,5 +1337,15 @@ contact
     color: #e5eee9;
     font-weight: 400;
   }
+  #btnScroll {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 16px;
+}  
+
   
  
