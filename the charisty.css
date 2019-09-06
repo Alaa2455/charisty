@@ -1333,10 +1333,20 @@ contact
     background-color: #fff;
   }
   
+
+  
   #footer a {
     color: #e5eee9;
     font-weight: 400;
   }
+  #footdiv {
+      background: #e5eee9;
+      
+     
+      font-size: 20px;
+      margin-left: 500px;
+  }
+  
   #btnScroll {
     display: none;
     position: fixed;
